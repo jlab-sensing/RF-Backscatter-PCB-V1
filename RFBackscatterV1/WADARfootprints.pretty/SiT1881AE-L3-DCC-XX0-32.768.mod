@@ -1,0 +1,67 @@
+PCBNEW-LibModule-V1  2024-02-16 21:30:10
+# encoding utf-8
+Units mm
+$INDEX
+Atna_QFN_2016_6pins
+$EndINDEX
+$MODULE Atna_QFN_2016_6pins
+Po 0 0 0 15 65cfd3e2 00000000 ~~
+Li Atna_QFN_2016_6pins
+Cd Atna_QFN_2016_6pins
+Kw Crystal or Oscillator
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 -0.000 -0 1.27 1.27 0 0.254 N V 21 N "Y**"
+T1 -0.000 -0 1.27 1.27 0 0.254 N I 21 N "Atna_QFN_2016_6pins"
+DS -1 -0.8 1 -0.8 0.1 24
+DS 1 -0.8 1 0.8 0.1 24
+DS 1 0.8 -1 0.8 0.1 24
+DS -1 0.8 -1 -0.8 0.1 24
+DS -2.068 -2 2.067 -2 0.1 24
+DS 2.067 -2 2.067 2 0.1 24
+DS 2.067 2 -2.068 2 0.1 24
+DS -2.068 2 -2.068 -2 0.1 24
+DS -0.8 1.4 -0.8 1.4 0.1 21
+DS -0.8 1.5 -0.8 1.5 0.1 21
+DA -0.8 1.45 -0.800 1.4 -1800 0.1 21
+DA -0.8 1.45 -0.800 1.5 -1800 0.1 21
+$PAD
+Po -0.805 0.625
+Sh "1" R 0.525 0.750 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.000 0.625
+Sh "2" R 0.575 0.750 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.805 0.625
+Sh "3" R 0.525 0.750 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.805 -0.625
+Sh "4" R 0.525 0.750 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.000 -0.625
+Sh "5" R 0.575 0.750 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.805 -0.625
+Sh "6" R 0.525 0.750 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE Atna_QFN_2016_6pins
+$EndLIBRARY
