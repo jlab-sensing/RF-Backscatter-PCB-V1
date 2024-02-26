@@ -152,4 +152,6 @@
   (lib (name "dk_USB-DVI-HDMI-Connectors")(type "Legacy")(uri "C:/Users/Josie/Desktop/Libraries/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib")(options "")(descr ""))
   (lib (name "2024-02-16_20-57-40")(type "KiCad")(uri "${KIPRJMOD}/2024-02-16_20-57-40.kicad_sym")(options "")(descr ""))
   (lib (name "SiT1881AE-L3-DCC-XX0-32_768")(type "KiCad")(uri "${KIPRJMOD}/SiT1881AE-L3-DCC-XX0-32_768.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-02-20_21-31-14")(type "KiCad")(uri "${KIPRJMOD}/2024-02-20_21-31-14.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-02-26_00-03-55")(type "KiCad")(uri "${KIPRJMOD}/2024-02-26_00-03-55.kicad_sym")(options "")(descr ""))
 )
