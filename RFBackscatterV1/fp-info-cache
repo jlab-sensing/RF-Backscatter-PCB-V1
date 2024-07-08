@@ -1,4 +1,4 @@
-23154492108388830
+23161338887278523
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61067,6 +61067,13 @@ THT
 0
 4
 2
+JLab_FP
+SKY13351_FP
+
+
+0
+0
+0
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -92246,6 +92253,13 @@ Crystal or Oscillator
 6
 6
 WADARfootprints
+CONN_SMA-J-P-H-RA-TH1_SAI
+
+SMA-J-P-H-RA-TH1 
+0
+5
+5
+WADARfootprints
 DG983-1_MNC
 
 HSWA2-30DR+ 
@@ -92266,6 +92280,20 @@ HSWA2-30DR+
 0
 21
 21
+WADARfootprints
+PG-ULGA-16
+
+BGSX33M5U16E6327XTSA1 
+0
+17
+17
+WADARfootprints
+XTAL4_SiT1533_SIT
+
+SIT1534AI-H4-DCC-00.001E 
+0
+4
+4
 digikey-footprints
 3-SIP_Module_TM1000Q
 
