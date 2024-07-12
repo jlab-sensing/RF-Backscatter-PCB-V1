@@ -157,4 +157,6 @@
   (lib (name "2024-02-26_00-15-55")(type "KiCad")(uri "${KIPRJMOD}/2024-02-26_00-15-55.kicad_sym")(options "")(descr ""))
   (lib (name "SKY13351-378LF")(type "KiCad")(uri "${KIPRJMOD}/SKY13351-378LF.kicad_sym")(options "")(descr ""))
   (lib (name "WADAR_KiCAD_Library")(type "KiCad")(uri "C:/Users/Josie/Desktop/Jlab/WADAR_KiCAD_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "CBR04C101J3GAC")(type "KiCad")(uri "${KIPRJMOD}/2024-07-12_18-16-18.kicad_sym")(options "")(descr ""))
+  (lib (name "GJM1555C1H330JB01D")(type "KiCad")(uri "${KIPRJMOD}/GJM1555C1H330JB01D.kicad_sym")(options "")(descr ""))
 )
