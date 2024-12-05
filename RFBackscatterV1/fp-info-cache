@@ -1,4 +1,4 @@
-24440436445702479
+24442169882506960
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98643,6 +98643,13 @@ Crystal or Oscillator
 0
 6
 6
+WADARfootprints
+BAT-SMD_MY-LR44-02
+
+
+0
+4
+4
 WADARfootprints
 CAPC10555_55N_KEM
 
