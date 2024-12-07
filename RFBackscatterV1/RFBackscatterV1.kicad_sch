@@ -3632,7 +3632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50Ω"
+		(property "Value" "DNP"
 			(at 185.42 93.9799 0)
 			(effects
 				(font
