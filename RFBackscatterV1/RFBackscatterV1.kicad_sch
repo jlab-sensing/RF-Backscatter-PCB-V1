@@ -3035,7 +3035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WADARfootprints:CAPC10555_55N_KEM"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -3054,7 +3054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GJM1555C1H330JB01D"
+		(property "Description" "0402CG330J500NT"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -3595,7 +3595,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "621ed6dc-6c42-4bef-8437-b982d4b69a09")
 		(property "Reference" "C1"
 			(at 175.514 89.916 0)
@@ -3686,7 +3686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WADARfootprints:CAPC10555_55N_KEM"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 147.32 92.71 0)
 			(effects
 				(font
@@ -3705,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GJM1555C1H330JB01D"
+		(property "Description" "0402CG330J500NT"
 			(at 147.32 92.71 0)
 			(effects
 				(font
