@@ -1761,6 +1761,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "GJM1555C1H330JB01D:GJM1555C1H330JB01D"
 			(pin_names
 				(offset 1.016)
@@ -2374,16 +2495,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 182.88 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "121ee230-9148-4100-96ed-5a32dac844a9")
-	)
-	(wire
-		(pts
 			(xy 57.15 58.42) (xy 57.15 82.55)
 		)
 		(stroke
@@ -2451,6 +2562,16 @@
 			(type default)
 		)
 		(uuid "2ce9d87e-e95a-495b-be1b-ec33195a492f")
+	)
+	(wire
+		(pts
+			(xy 175.26 80.01) (xy 180.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311c5ae3-cdfb-41be-ac33-230d0feb8ec5")
 	)
 	(wire
 		(pts
@@ -2604,13 +2725,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 87.63) (xy 182.88 87.63)
+			(xy 187.96 80.01) (xy 190.5 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "872bf5e1-047e-4117-8374-cf3f3ca81202")
+		(uuid "8f2291ef-2ff3-4de4-a2a4-2e02c4e40601")
+	)
+	(wire
+		(pts
+			(xy 182.88 97.79) (xy 182.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9990b88f-1dc8-4267-b436-420516b6a187")
 	)
 	(wire
 		(pts
@@ -2724,13 +2855,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 80.01) (xy 190.5 80.01)
+			(xy 182.88 87.63) (xy 182.88 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c22da0e9-acb8-4c26-af92-412636b8ea12")
+		(uuid "c48d14f0-121f-4b04-b4bc-09942660c4e4")
 	)
 	(wire
 		(pts
@@ -3176,7 +3307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "10nF"
 			(at 154.432 110.49 90)
 			(effects
 				(font
@@ -3185,7 +3316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC10555_55N_KEM"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.83 102.87 0)
 			(effects
 				(font
@@ -3195,7 +3326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CBR04C101J3GAC"
+		(property "Datasheet" "CC0402KRX7R6BB103"
 			(at 163.83 102.87 0)
 			(effects
 				(font
@@ -3224,6 +3355,77 @@
 			(project "RFBackscatterV1"
 				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBR04C101J3GAC:CBR04C101J3GAC")
+		(at 180.34 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58caef0b-4904-41b5-804d-eb537cd42d20")
+		(property "Reference" "C5"
+			(at 180.594 82.296 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 179.578 84.328 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CC0402KRX7R6BB103"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e06ca004-4f5a-4913-bc71-9a7e163ddeb0")
+		)
+		(pin "2"
+			(uuid "5c0d9478-a990-4309-9f89-cb9d0b0042a7")
+		)
+		(instances
+			(project "RFBackscatterV1"
+				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3381,6 +3583,77 @@
 			(project "RFBackscatterV1"
 				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CBR04C101J3GAC:CBR04C101J3GAC")
+		(at 175.26 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "621ed6dc-6c42-4bef-8437-b982d4b69a09")
+		(property "Reference" "C1"
+			(at 175.514 89.916 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 174.498 91.948 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 175.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CC0402KRX7R6BB103"
+			(at 175.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f83f1b61-0e15-4505-95f1-13a67ca44c20")
+		)
+		(pin "2"
+			(uuid "fd1b1457-3e70-4378-98a2-6aa302fd7c65")
+		)
+		(instances
+			(project "RFBackscatterV1"
+				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3551,7 +3824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WADARfootprints:BAT-SMD_MY-LR44-02"
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
 			(at 57.15 54.356 90)
 			(effects
 				(font
@@ -3665,6 +3938,76 @@
 			(project ""
 				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "aa86c256-3f81-4bc6-bcee-32e939766215")
+		(property "Reference" "R1"
+			(at 185.42 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 185.42 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.102 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c9c62e-931d-48ca-ae5b-0c88af8661bd")
+		)
+		(pin "2"
+			(uuid "d1d7247f-2c28-46c9-9cf9-bc8cd4f0fc04")
+		)
+		(instances
+			(project ""
+				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4016,7 +4359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
+		(property "Value" "3V0"
 			(at 123.19 57.15 0)
 			(effects
 				(font
