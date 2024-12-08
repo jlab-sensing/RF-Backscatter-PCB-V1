@@ -3753,7 +3753,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RF-Backscatter-V2.0\nJ-Lab UCSC"
+	(gr_text "RF-Backscatter-V1.1\nJ-Lab UCSC"
 		(at 150 96 90)
 		(layer "F.SilkS")
 		(uuid "cf356a8d-a561-41c1-84b1-f1282f54fbc5")
