@@ -1761,127 +1761,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GJM1555C1H330JB01D:GJM1555C1H330JB01D"
 			(pin_names
 				(offset 1.016)
@@ -2418,12 +2297,6 @@
 		(uuid "482eb421-155f-4f59-824c-c9982045c4b9")
 	)
 	(junction
-		(at 76.2 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4878fbe2-309f-450d-8275-441cfc3fcb95")
-	)
-	(junction
 		(at 106.68 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2501,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 182.88 88.9)
+			(xy 182.88 87.63) (xy 182.88 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2791,7 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 101.6) (xy 76.2 101.6)
+			(xy 60.96 101.6) (xy 90.17 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2808,16 +2681,6 @@
 			(type default)
 		)
 		(uuid "b47dfac5-cb3e-4a7e-b695-f80613aea993")
-	)
-	(wire
-		(pts
-			(xy 182.88 96.52) (xy 182.88 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b278ad-9997-46a4-b883-e1d83fe40843")
 	)
 	(wire
 		(pts
@@ -2881,16 +2744,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 101.6) (xy 90.17 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf03e0c7-f7c2-4d65-88e8-a9cce7d48938")
-	)
-	(wire
-		(pts
 			(xy 114.3 68.58) (xy 114.3 90.17)
 		)
 		(stroke
@@ -2948,16 +2801,6 @@
 			(type default)
 		)
 		(uuid "f77ba563-0189-47c8-9a3f-48eddb278497")
-	)
-	(wire
-		(pts
-			(xy 76.2 101.6) (xy 76.2 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae82658-38cf-4910-8b6f-c0ecc079fc99")
 	)
 	(wire
 		(pts
@@ -3614,76 +3457,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 182.88 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96318dbf-1fd9-48c3-9484-ca4ba6d44f1e")
-		(property "Reference" "R1"
-			(at 185.42 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 185.42 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.102 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 182.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f6fffa3-1ef9-489b-88c9-d9a576416d5e")
-		)
-		(pin "2"
-			(uuid "f6c9ac8f-e19e-4aec-b0da-6dced41cbb8e")
-		)
-		(instances
-			(project ""
-				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 104.14 106.68 180)
 		(unit 1)
@@ -3815,73 +3588,6 @@
 			(project ""
 				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
 					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 76.2 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a553e778-54c2-42d4-9dc1-928327bfdb30")
-		(property "Reference" "TP4"
-			(at 78.74 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "JLab_FP:EpicTestPointV1"
-			(at 71.12 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "  (layer \"F.Cu\")"
-			(at 71.12 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27b342ad-52e2-455f-913f-4a00d2a093ae")
-		)
-		(instances
-			(project "RFBackscatterV1"
-				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
-					(reference "TP4")
 					(unit 1)
 				)
 			)

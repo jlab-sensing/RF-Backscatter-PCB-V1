@@ -1,4 +1,4 @@
-24442169882506960
+24442169889349746
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64264,7 +64264,7 @@ SKY13351_FP
 
 
 0
-8
+9
 6
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
@@ -98649,7 +98649,7 @@ BAT-SMD_MY-LR44-02
 
 0
 4
-4
+2
 WADARfootprints
 CAPC10555_55N_KEM
 
