@@ -3316,7 +3316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.83 102.87 0)
 			(effects
 				(font
@@ -3387,7 +3387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 180.34 80.01 0)
 			(effects
 				(font
@@ -3397,7 +3397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CC0402KRX7R6BB103"
+		(property "Datasheet" ""
 			(at 180.34 80.01 0)
 			(effects
 				(font
