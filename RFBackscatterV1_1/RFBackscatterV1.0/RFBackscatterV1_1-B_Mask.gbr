@@ -1,0 +1,24 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.8*%
+%TF.CreationDate,2024-07-12T13:32:42-07:00*%
+%TF.ProjectId,RFBackscatterV1,52464261-636b-4736-9361-747465725631,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.8) date 2024-07-12 13:32:42*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,2.108200*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J1*%
+X170180000Y-92417900D03*
+X172720000Y-94957900D03*
+X172720000Y-89877900D03*
+X167640000Y-89877900D03*
+X167640000Y-94957900D03*
+%TD*%
+M02*
