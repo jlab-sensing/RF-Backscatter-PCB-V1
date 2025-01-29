@@ -2891,7 +2891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SiT1569"
 			(at 67.31 81.28 0)
 			(effects
 				(font

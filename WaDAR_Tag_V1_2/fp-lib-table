@@ -4,4 +4,5 @@
   (lib (name "footprints")(type "KiCad")(uri "C:/Users/Josie/Desktop/Libraries/Components/footprints.pretty")(options "")(descr ""))
   (lib (name "WADARfootprints")(type "KiCad")(uri "${KIPRJMOD}/WADARfootprints.pretty")(options "")(descr ""))
   (lib (name "JLab_FP")(type "KiCad")(uri "${KIPRJMOD}/JLab_FP.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
 )
