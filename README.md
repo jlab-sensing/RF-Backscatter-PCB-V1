@@ -15,7 +15,7 @@ Each version is archived upon PCB fabrication and assembly.
 
 ### WaDAR_Tag_V1_0
 - **Description**: First working iteration. Oscillates at a set frequency at 2^n, where n is determined by the oscillator of chocie.
-- **Authors**: Eric Vetha, evetha@ucsc.edu
+- **Authors**: Eric Vetha, evetha@ucsc.edu | Jack Lin, jlin143@ucsc.edu
 - **Components**: TODO
 
 ### WaDAR_Tag_V1_0 (Not yet fabricated)
