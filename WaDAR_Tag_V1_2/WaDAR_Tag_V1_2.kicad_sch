@@ -1092,108 +1092,6 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers hide)
 			(pin_names
@@ -1905,12 +1803,6 @@
 		(uuid "28178cc1-c510-4edd-8ed5-b24db4070bf3")
 	)
 	(junction
-		(at 72.39 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d135b0f-8ccb-47ec-8b0f-cf19dc560e8b")
-	)
-	(junction
 		(at 158.75 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1921,12 +1813,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c6ef197-2eb3-4e88-a8d5-c5112407a7b4")
-	)
-	(junction
-		(at 99.06 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5027d7d2-89c0-4c20-90d2-85d335f1013e")
 	)
 	(junction
 		(at 158.75 115.57)
@@ -1971,12 +1857,6 @@
 		(uuid "c0cae2e7-76b1-4d3b-bccb-a0a0aa600664")
 	)
 	(junction
-		(at 73.66 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1d44bca-8038-4d12-923b-7a16b196a721")
-	)
-	(junction
 		(at 104.14 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2015,16 +1895,6 @@
 			(type default)
 		)
 		(uuid "07e7f9a9-caf8-487f-aded-fecc692c9cc3")
-	)
-	(wire
-		(pts
-			(xy 72.39 60.96) (xy 82.55 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09fecae3-5837-4de0-9412-1fe7c5b3ae99")
 	)
 	(wire
 		(pts
@@ -2088,7 +1958,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 85.09) (xy 99.06 85.09)
+			(xy 82.55 85.09) (xy 104.14 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2138,16 +2008,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 113.03) (xy 91.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44527be5-1b1f-4861-841b-660a480f4fc5")
-	)
-	(wire
-		(pts
 			(xy 104.14 96.52) (xy 104.14 113.03)
 		)
 		(stroke
@@ -2155,16 +2015,6 @@
 			(type default)
 		)
 		(uuid "454d6a4a-99f0-4bfb-9ff1-d487b0490289")
-	)
-	(wire
-		(pts
-			(xy 72.39 59.69) (xy 72.39 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48280ec3-0fae-4af8-9191-61170d2276b7")
 	)
 	(wire
 		(pts
@@ -2218,16 +2068,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 104.14 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "693c0b17-3d1e-4edb-b475-22293c501b5f")
-	)
-	(wire
-		(pts
 			(xy 91.44 96.52) (xy 91.44 113.03)
 		)
 		(stroke
@@ -2265,16 +2105,6 @@
 			(type default)
 		)
 		(uuid "8b5a180f-e0cb-4a3f-986f-352e542a5c9e")
-	)
-	(wire
-		(pts
-			(xy 73.66 113.03) (xy 73.66 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb5f89e3-c6e6-485e-8b02-08dc1dbd7fe6")
 	)
 	(wire
 		(pts
@@ -2318,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 60.96) (xy 72.39 60.96)
+			(xy 58.42 60.96) (xy 82.55 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2328,23 +2158,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 113.03) (xy 73.66 113.03)
+			(xy 46.99 113.03) (xy 91.44 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e59013d4-fff1-4af7-995e-9c9b80078bf4")
-	)
-	(wire
-		(pts
-			(xy 99.06 59.69) (xy 99.06 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7949d2d-7e5c-41f4-82e6-8c14dd41edd0")
 	)
 	(wire
 		(pts
@@ -2799,73 +2619,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 99.06 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4b89ac9-9623-4aa6-b246-45c2ce3707e3")
-		(property "Reference" "TP3"
-			(at 97.536 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CLK_OUT"
-			(at 97.282 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLab_FP:EpicTestPointV1"
-			(at 93.98 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "395feb37-c584-4355-acb5-46cd9d778c97")
-		)
-		(instances
-			(project "WaDAR_Tag_V1_2"
-				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:SiT1569")
 		(at 67.31 81.28 0)
 		(unit 1)
@@ -3006,73 +2759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 73.66 115.57 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d503e00d-e115-469b-9c06-0e0953ba943e")
-		(property "Reference" "TP2"
-			(at 76.2 117.6019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 120.1419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "JLab_FP:EpicTestPointV1"
-			(at 68.58 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97278dc3-3838-435f-896b-a3f1f9cdc919")
-		)
-		(instances
-			(project "RFBackscatterV1"
-				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "GJM1555C1H330JB01D:GJM1555C1H330JB01D")
 		(at 91.44 91.44 270)
 		(unit 1)
@@ -3137,73 +2823,6 @@
 			(project "RFBackscatterV1"
 				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 72.39 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dab8acd9-94ad-4365-ab3d-bfb0bdfa2d57")
-		(property "Reference" "TP1"
-			(at 70.866 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VCC"
-			(at 70.612 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLab_FP:EpicTestPointV1"
-			(at 67.31 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "059ed030-25ef-4376-b08f-88e41b0af956")
-		)
-		(instances
-			(project "RFBackscatterV1"
-				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
