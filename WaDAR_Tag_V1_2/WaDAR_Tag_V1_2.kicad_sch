@@ -1092,6 +1092,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers hide)
 			(pin_names
@@ -1797,6 +1899,12 @@
 		(uuid "0caaff3d-7df6-4c55-bd02-e9fc02950335")
 	)
 	(junction
+		(at 46.99 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ccb016b-2c84-47f7-a236-f67868ca25d1")
+	)
+	(junction
 		(at 46.99 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1998,7 +2106,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 60.96) (xy 46.99 60.96)
+			(xy 55.88 60.96) (xy 46.99 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2108,6 +2216,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 50.8) (xy 104.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24fb4c0-7d53-40ac-954c-d02470bd7928")
+	)
+	(wire
+		(pts
 			(xy 46.99 60.96) (xy 46.99 77.47)
 		)
 		(stroke
@@ -2148,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 60.96) (xy 82.55 60.96)
+			(xy 63.5 60.96) (xy 82.55 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2168,6 +2286,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 50.8) (xy 82.55 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cf0550-8d95-4496-8685-a24de773732b")
+	)
+	(wire
+		(pts
+			(xy 46.99 50.8) (xy 46.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6d2929-8d5e-40b5-96b9-ba241eb9ba32")
+	)
+	(wire
+		(pts
 			(xy 151.13 87.63) (xy 151.13 77.47)
 		)
 		(stroke
@@ -2175,6 +2313,73 @@
 			(type default)
 		)
 		(uuid "fe0b30b1-4ab7-4b5c-9ee2-f902dc2fa0cd")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d736c12-6ddf-48eb-9aec-ea8a29de994c")
+		(property "Reference" "TP1"
+			(at 85.09 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VCC"
+			(at 85.09 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c95d3b1b-56be-484b-91b6-386834e9cdef")
+		)
+		(instances
+			(project ""
+				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "WADAR_KiCAD_Library:SKY13351-378LF")
@@ -2399,6 +2604,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 46.99 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51eb1b40-79e3-4db1-a18a-513bd3ad2aff")
+		(property "Reference" "TP2"
+			(at 49.53 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 46.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9967594a-9462-4b5c-a787-08890c768a7d")
+		)
+		(instances
+			(project "WaDAR_Tag_V1_2"
+				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-02-20_21-31-14:SMA-J-P-H-RA-TH1")
 		(at 158.75 110.49 0)
 		(unit 1)
@@ -2550,34 +2822,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 53.34 60.96 270)
+		(lib_id "Connector:TestPoint")
+		(at 104.14 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a06b5301-ad15-4b6e-a422-39fb093d8789")
-		(property "Reference" "BT1"
-			(at 55.118 54.864 90)
+		(fields_autoplaced yes)
+		(uuid "8b4b9125-490d-4b27-bd1a-4658fc675ed4")
+		(property "Reference" "TP3"
+			(at 106.68 46.2279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 59.182 57.15 90)
+		(property "Value" "CLK"
+			(at 106.68 48.7679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
-			(at 54.864 60.96 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 109.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2859,73 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.864 60.96 90)
+			(at 109.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b81d8bc-9295-4d48-bb73-456b2dd9a935")
+		)
+		(instances
+			(project "WaDAR_Tag_V1_2"
+				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 58.42 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a06b5301-ad15-4b6e-a422-39fb093d8789")
+		(property "Reference" "BT1"
+			(at 60.198 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 64.262 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
+			(at 59.944 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.944 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +2934,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 53.34 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
