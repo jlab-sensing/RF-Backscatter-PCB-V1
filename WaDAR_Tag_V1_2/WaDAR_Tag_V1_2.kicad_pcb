@@ -168,7 +168,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2969/CL05C330JB5NNNC_Spec.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -181,7 +181,7 @@
 				)
 			)
 		)
-		(property "Description" "0402CG330J500NT"
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -194,6 +194,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d6534817-c18d-4286-9e93-ba94c5aab569")
 		(sheetname "Root")
 		(sheetfile "WaDAR_Tag_V1_2.kicad_sch")
@@ -345,8 +346,8 @@
 		(at 148.8 47.4)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP2"
-			(at 0 -1.448 0)
+		(property "Reference" "GND"
+			(at 2.4 0 0)
 			(layer "F.SilkS")
 			(uuid "91f6c91d-4272-4bec-9233-585b36f707b3")
 			(effects
@@ -492,7 +493,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2969/CL05C330JB5NNNC_Spec.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -505,7 +506,7 @@
 				)
 			)
 		)
-		(property "Description" "0402CG330J500NT"
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -518,6 +519,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/716b7774-00ff-4e91-8d3f-c20c4de2b76f")
 		(sheetname "Root")
 		(sheetfile "WaDAR_Tag_V1_2.kicad_sch")
@@ -1029,8 +1031,8 @@
 		(at 178.2 47.3)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP1"
-			(at 0 -1.448 0)
+		(property "Reference" "VCC"
+			(at -2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "478c19df-d6a1-469b-886f-4c6110ec37fd")
 			(effects
@@ -1176,7 +1178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CC0402KRX7R6BB103"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0805C101J5GAC7800"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1189,7 +1191,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 100PF 50V C0G/NP0 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1202,7 +1204,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "CAPC10555_55N_KEM CAPC10555_55N_KEM-M CAPC10555_55N_KEM-L")
+		(property ki_fp_filters "C_*")
 		(path "/44ccfc58-91ec-4db8-8565-df41fd424d69")
 		(sheetname "Root")
 		(sheetfile "WaDAR_Tag_V1_2.kicad_sch")
@@ -1324,7 +1326,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 8 "Net-(U2-OUTPUT1)")
-			(pintype "unspecified")
+			(pintype "passive")
 			(uuid "68da70a6-7721-4827-a0ed-075c7e22add6")
 		)
 		(pad "2" smd roundrect
@@ -1333,7 +1335,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 4 "Net-(C3-Pad2)")
-			(pintype "unspecified")
+			(pintype "passive")
 			(uuid "bb43f11c-89ad-476e-817a-ffca712af0cf")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
@@ -1354,8 +1356,8 @@
 		(at 148.9 49.8)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP3"
-			(at 0 -1.448 0)
+		(property "Reference" "CLK"
+			(at 2.3 0 0)
 			(layer "F.SilkS")
 			(uuid "105e5f65-7449-4e9e-abd7-9d6b84e9a7e8")
 			(effects
@@ -1465,7 +1467,7 @@
 		(uuid "d74101ee-2b5b-448a-92b4-ebda40bfa187")
 		(at 159.25 57.8 90)
 		(property "Reference" "U2"
-			(at 0 -0.5 90)
+			(at 0 2.15 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e7c14674-b7e3-4cfc-9c91-60a8f3ddc06a")
@@ -1476,7 +1478,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SKY13351-378LF"
 			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1500,7 +1502,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.skyworksinc.com/-/media/5E82DAE396A64F5D8598F71A4EC4B215.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1512,7 +1514,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF SWITCH SPDT 6GHZ 6MLPD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1678,7 +1680,7 @@
 		(uuid "dbec4b2a-17ce-4165-b437-160ce510e39c")
 		(at 170.795 56.5 -90)
 		(property "Reference" "U1"
-			(at -1.8 -0.1 90)
+			(at -1.9 -0.1 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ee86b24c-527c-4df2-833a-d856cf25c48d")
@@ -1689,7 +1691,7 @@
 				)
 			)
 		)
-		(property "Value" "SiT1569"
+		(property "Value" "SIT1569AC-J3-30E-0000.080000"
 			(at -5 -5.63 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1714,7 +1716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sitime.com/datasheet/SiT1569"
 			(at -5 -6.63 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1727,7 +1729,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MEMS OSC XO 80HZ LVCMOS"
 			(at -5 -6.63 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1839,7 +1841,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1852,7 +1854,7 @@
 				)
 			)
 		)
-		(property "Description" "0402CG330J500NT"
+		(property "Description" "CAP CER 100PF 50V C0G/NPO 0402"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1865,6 +1867,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4b88d890-9c1b-472b-93ef-55dfd0bd8bfc")
 		(sheetname "Root")
 		(sheetfile "WaDAR_Tag_V1_2.kicad_sch")
@@ -2029,7 +2032,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "1060"
 			(at 5 4.2 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -2056,7 +2059,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p4.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2070,7 +2073,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "BATTERY HOLDER COIN 20MM SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
