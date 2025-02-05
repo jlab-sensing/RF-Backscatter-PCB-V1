@@ -841,257 +841,6 @@
 				)
 			)
 		)
-		(symbol "CBR04C101J3GAC:CBR04C101J3GAC"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "CBR04C101J3GAC"
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CAPC10555_55N_KEM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "CBR04C101J3GAC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "CBR04C101J3GAC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CAPC10555_55N_KEM CAPC10555_55N_KEM-M CAPC10555_55N_KEM-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CBR04C101J3GAC_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CBR04C101J3GAC_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -1366,43 +1115,34 @@
 				)
 			)
 		)
-		(symbol "GJM1555C1H330JB01D:GJM1555C1H330JB01D"
+		(symbol "Device:C"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0 3.8109 0)
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "GJM1555C1H330JB01D"
-				(at 0 -5.0885 0)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "GJM1555C1H330JB01D:CAPC1005X55N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1410,7 +1150,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1419,61 +1159,92 @@
 					(hide yes)
 				)
 			)
-			(symbol "GJM1555C1H330JB01D_0_0"
-				(rectangle
-					(start 0 -1.9069)
-					(end 0.635 1.905)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
 					(stroke
-						(width 0.1)
+						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 1.9069 -1.9069)
-					(end 2.54 1.905)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
 					(stroke
-						(width 0.1)
+						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
+			)
+			(symbol "C_1_1"
 				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
+					(at 0 3.81 270)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
+					(at 0 -3.81 90)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1627,7 +1398,24 @@
 					)
 				)
 			)
-			(property "Value" "~"
+			(property "Value" "SKY13351-378LF"
+				(at -0.254 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:SKY13351_FP"
+				(at -10.414 16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.skyworksinc.com/-/media/5E82DAE396A64F5D8598F71A4EC4B215.pdf"
 				(at -13.97 10.16 0)
 				(effects
 					(font
@@ -1636,25 +1424,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "JLab_FP:SKY13351_FP"
-				(at -13.97 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -13.97 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
+			(property "Description" "IC RF SWITCH SPDT 6GHZ 6MLPD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1677,14 +1447,6 @@
 				)
 			)
 			(symbol "SKY13351-378LF_1_1"
-				(text "SKY13351-378LF"
-					(at 0 7.62 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(pin output line
 					(at 11.43 2.54 180)
 					(length 2.54)
@@ -1953,16 +1715,16 @@
 		(uuid "79212fe5-e75c-4a58-9a9f-1bbe356a9bd4")
 	)
 	(junction
+		(at 104.14 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97c1b881-cb24-4af0-88e4-b4d4c3b35101")
+	)
+	(junction
 		(at 158.75 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a29a650b-eb1b-4e0e-ae76-e296d7b0e42a")
-	)
-	(junction
-		(at 104.14 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0cae2e7-76b1-4d3b-bccb-a0a0aa600664")
 	)
 	(junction
 		(at 104.14 85.09)
@@ -2086,17 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 85.09) (xy 104.14 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3be31d6b-a5ab-443e-b69a-c0c93d90ba59")
-	)
-	(wire
-		(pts
-			(xy 104.14 113.03) (xy 119.38 113.03)
+			(xy 91.44 113.03) (xy 104.14 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2116,13 +1868,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 104.14 113.03)
+			(xy 104.14 85.09) (xy 104.14 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "454d6a4a-99f0-4bfb-9ff1-d487b0490289")
+		(uuid "49b8512e-dd0a-4c14-b256-c961cd08989a")
 	)
 	(wire
 		(pts
@@ -2166,7 +1918,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 95.25) (xy 151.13 110.49)
+			(xy 151.13 91.44) (xy 151.13 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2176,13 +1928,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 91.44 113.03)
+			(xy 151.13 77.47) (xy 151.13 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "796b305d-5ffd-4c55-a868-5a609848976b")
+		(uuid "7827cfe3-f57a-4f56-8ed1-7f281bf2bbe9")
 	)
 	(wire
 		(pts
@@ -2203,6 +1955,16 @@
 			(type default)
 		)
 		(uuid "83891c57-d5e9-42bb-8cd1-0c881a8372e1")
+	)
+	(wire
+		(pts
+			(xy 104.14 113.03) (xy 119.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870a7169-874b-4c87-9580-e34118963978")
 	)
 	(wire
 		(pts
@@ -2236,13 +1998,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 77.47) (xy 91.44 88.9)
+			(xy 91.44 77.47) (xy 91.44 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bede734b-d42a-48b7-b10a-554b812fd1ad")
+	)
+	(wire
+		(pts
+			(xy 91.44 95.25) (xy 91.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fede4c-2fd8-4bf8-a89e-b2b391960954")
 	)
 	(wire
 		(pts
@@ -2256,13 +2028,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 113.03) (xy 104.14 113.03)
+			(xy 104.14 95.25) (xy 104.14 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2e76a0f-ec25-4ff4-938f-5aedfec9276d")
+		(uuid "c96524fa-0698-4f8f-a428-4d991b70b58b")
 	)
 	(wire
 		(pts
@@ -2303,16 +2075,6 @@
 			(type default)
 		)
 		(uuid "fd6d2929-8d5e-40b5-96b9-ba241eb9ba32")
-	)
-	(wire
-		(pts
-			(xy 151.13 87.63) (xy 151.13 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0b30b1-4ab7-4b5c-9ee2-f902dc2fa0cd")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -2399,7 +2161,24 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SKY13351-378LF"
+			(at 130.556 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SKY13351_FP"
+			(at 120.396 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.skyworksinc.com/-/media/5E82DAE396A64F5D8598F71A4EC4B215.pdf"
 			(at 116.84 69.85 0)
 			(effects
 				(font
@@ -2408,25 +2187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLab_FP:SKY13351_FP"
-			(at 116.84 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "IC RF SWITCH SPDT 6GHZ 6MLPD"
 			(at 130.81 80.01 0)
 			(effects
 				(font
@@ -2463,8 +2224,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CBR04C101J3GAC:CBR04C101J3GAC")
-		(at 151.13 87.63 270)
+		(lib_id "Device:C")
+		(at 151.13 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2472,44 +2233,42 @@
 		(dnp no)
 		(uuid "44ccfc58-91ec-4db8-8565-df41fd424d69")
 		(property "Reference" "C3"
-			(at 144.78 92.71 90)
+			(at 153.67 86.106 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100pF"
-			(at 141.732 95.25 90)
+			(at 153.924 88.392 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 151.13 87.63 0)
+			(at 152.0952 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CC0402KRX7R6BB103"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0805C101J5GAC7800"
 			(at 151.13 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 100PF 50V C0G/NP0 0805"
 			(at 151.13 87.63 0)
 			(effects
 				(font
@@ -2534,8 +2293,8 @@
 		)
 	)
 	(symbol
-		(lib_id "GJM1555C1H330JB01D:GJM1555C1H330JB01D")
-		(at 130.81 104.14 270)
+		(lib_id "Device:C")
+		(at 130.81 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2543,7 +2302,7 @@
 		(dnp no)
 		(uuid "4b88d890-9c1b-472b-93ef-55dfd0bd8bfc")
 		(property "Reference" "C4"
-			(at 125.73 105.41 90)
+			(at 133.858 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2311,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 122.936 107.95 90)
+			(at 133.858 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,17 +2320,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 130.81 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 104.14 0)
+			(at 131.7752 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,8 +2328,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402CG330J500NT"
-			(at 130.81 104.14 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100PF 50V C0G/NPO 0402"
+			(at 130.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,8 +2510,8 @@
 		)
 	)
 	(symbol
-		(lib_id "GJM1555C1H330JB01D:GJM1555C1H330JB01D")
-		(at 104.14 91.44 270)
+		(lib_id "Device:C")
+		(at 104.14 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2761,7 +2519,7 @@
 		(dnp no)
 		(uuid "716b7774-00ff-4e91-8d3f-c20c4de2b76f")
 		(property "Reference" "C2"
-			(at 99.06 92.71 90)
+			(at 99.06 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2528,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 96.266 95.25 90)
+			(at 97.028 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,17 +2537,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 91.44 0)
+			(at 105.1052 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2545,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402CG330J500NT"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2969/CL05C330JB5NNNC_Spec.pdf"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -2906,7 +2663,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "1060"
 			(at 64.262 57.15 90)
 			(effects
 				(font
@@ -2924,7 +2681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p4.pdf"
 			(at 59.944 60.96 90)
 			(effects
 				(font
@@ -2933,7 +2690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "BATTERY HOLDER COIN 20MM SMD"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -2975,7 +2732,7 @@
 				)
 			)
 		)
-		(property "Value" "SiT1569"
+		(property "Value" "SIT1569AC-J3-30E-0000.080000"
 			(at 67.945 73.66 0)
 			(effects
 				(font
@@ -2992,7 +2749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sitime.com/datasheet/SiT1569"
 			(at 67.31 81.28 0)
 			(effects
 				(font
@@ -3001,7 +2758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MEMS OSC XO 80HZ LVCMOS"
 			(at 67.31 81.28 0)
 			(effects
 				(font
@@ -3098,8 +2855,8 @@
 		)
 	)
 	(symbol
-		(lib_id "GJM1555C1H330JB01D:GJM1555C1H330JB01D")
-		(at 91.44 91.44 270)
+		(lib_id "Device:C")
+		(at 91.44 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3107,7 +2864,7 @@
 		(dnp no)
 		(uuid "d6534817-c18d-4286-9e93-ba94c5aab569")
 		(property "Reference" "C1"
-			(at 86.36 92.71 90)
+			(at 86.36 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,7 +2873,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 84.582 95.504 90)
+			(at 84.074 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,17 +2882,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 91.44 0)
+			(at 92.4052 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +2890,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402CG330J500NT"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2969/CL05C330JB5NNNC_Spec.pdf"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 91.44 91.44 0)
 			(effects
 				(font
