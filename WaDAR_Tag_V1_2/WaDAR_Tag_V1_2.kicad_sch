@@ -2081,7 +2081,7 @@
 		(at 82.55 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2241,13 +2241,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "CAP CER 100PF 0805"
 			(at 153.924 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -2275,6 +2276,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Capacitance" "100 pF"
+			(at 153.67 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -2310,13 +2320,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "CAP CER 100PF 0402"
 			(at 133.858 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -2346,6 +2357,15 @@
 				(hide yes)
 			)
 		)
+		(property "Capacitance" "100 pF"
+			(at 137.414 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
 		(pin "1"
 			(uuid "69aa12cf-58eb-4dd3-ace5-b0fb27c9302b")
 		)
@@ -2366,7 +2386,7 @@
 		(at 46.99 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2527,13 +2547,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "CAP CER 33PF 0402"
 			(at 97.028 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -2563,6 +2584,15 @@
 				(hide yes)
 			)
 		)
+		(property "Capacitance" "33 pF"
+			(at 96.012 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "511673b7-64fe-4678-9b12-bd345d1706e4")
 		)
@@ -2583,7 +2613,7 @@
 		(at 104.14 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2872,13 +2902,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "CAP CER 33PF 0402"
 			(at 84.074 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -2906,6 +2937,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Capacitance" "33 pF"
+			(at 83.312 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
