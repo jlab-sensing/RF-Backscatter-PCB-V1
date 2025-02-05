@@ -13,12 +13,12 @@ Each version is archived upon PCB fabrication and assembly.
 - **Authors**: Josie Dominguez, jocadomi@ucsc.edu
 - **Components**: TODO
 
-### WaDAR_Tag_V1_0
+### WaDAR_Tag_V1_1
 - **Description**: First working iteration. Oscillates at a set frequency at 2^n, where n is determined by the oscillator of chocie.
 - **Authors**: Eric Vetha, evetha@ucsc.edu | Jack Lin, jlin143@ucsc.edu
 - **Components**: TODO
 
-### WaDAR_Tag_V1_0 (Not yet fabricated)
+### WaDAR_Tag_V1_2 (Not yet fabricated)
 - **Description**: Upgrade to board to incorporate an oscillator programmable at more flexibile frequencies.
 - **Authors**: Eric Vetha, evetha@ucsc.edu
 - **Components**: TODO
