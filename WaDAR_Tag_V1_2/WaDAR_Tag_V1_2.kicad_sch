@@ -2447,7 +2447,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA-J-P-H-RA-TH1"
+		(property "Value" "142-0701-321"
 			(at 172.72 116.84 0)
 			(effects
 				(font
@@ -2466,7 +2466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SMA-J-P-H-RA-TH1"
+		(property "Datasheet" "https://secure-web.cisco.com/1DZ9VzbYAXZ-R-LPek44dWAY5tpyuDxEmXSDugOLt9HCVcz2LxcBg_oyr93yuw77llLCRc9d3T34vo-pjBK-s3IkY3R66W-ncmQ0YOM9IQMUK1O7wZMPkewxqXqTqhK5-2u-29hxEuVjo2LqNmdOEcCusiwmr3znwXKvoiuOikGmvCtdp23G3hZo508RFRhTmv9uOTL0b0hJ-cT9kvkwjuFS8DTf5pSmEP"
 			(at 158.75 110.49 0)
 			(effects
 				(font
@@ -2476,7 +2476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN SMA JACK R/A 50 OHM PCB"
 			(at 158.75 110.49 0)
 			(effects
 				(font
