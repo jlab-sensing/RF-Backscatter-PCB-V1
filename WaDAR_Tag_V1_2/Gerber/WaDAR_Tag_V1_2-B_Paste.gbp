@@ -1,15 +1,19 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.7-8.0.7-0~ubuntu22.04.1*
-G04 #@! TF.CreationDate,2025-01-08T14:25:43-08:00*
-G04 #@! TF.ProjectId,RFBackscatterV1,52464261-636b-4736-9361-747465725631,rev?*
+G04 #@! TF.CreationDate,2025-02-07T12:30:31-08:00*
+G04 #@! TF.ProjectId,WaDAR_Tag_V1_2,57614441-525f-4546-9167-5f56315f322e,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.7-8.0.7-0~ubuntu22.04.1) date 2025-01-08 14:25:43*
+G04 Created by KiCad (PCBNEW 8.0.7-8.0.7-0~ubuntu22.04.1) date 2025-02-07 12:30:31*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
+%ADD10R,2.600000X3.600000*%
 G04 APERTURE END LIST*
+D10*
+X178300000Y-56425000D03*
+X149000000Y-56425000D03*
 M02*

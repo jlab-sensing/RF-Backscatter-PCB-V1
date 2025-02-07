@@ -1798,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 60.96) (xy 46.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a107f30-2276-40a2-8fe5-19ea8ab1e50b")
+	)
+	(wire
+		(pts
 			(xy 46.99 77.47) (xy 53.34 77.47)
 		)
 		(stroke
@@ -1975,6 +1985,16 @@
 			(type default)
 		)
 		(uuid "8b5a180f-e0cb-4a3f-986f-352e542a5c9e")
+	)
+	(wire
+		(pts
+			(xy 39.37 50.8) (xy 39.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23ebcee-a5dd-47fa-9cab-60541f66eb31")
 	)
 	(wire
 		(pts
@@ -2739,6 +2759,73 @@
 			(project ""
 				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0a77bac-db35-4a0a-9ca4-79c190db1e0d")
+		(property "Reference" "TP4"
+			(at 36.83 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 34.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4116007-1c92-4176-8718-b23e1c47023b")
+		)
+		(instances
+			(project "WaDAR_Tag_V1_2"
+				(path "/1b480a55-1292-4321-8fce-0463cf94490c"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
