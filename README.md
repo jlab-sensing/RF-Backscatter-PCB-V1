@@ -18,7 +18,7 @@ Each version is archived upon PCB fabrication and assembly.
 - **Authors**: Eric Vetha, evetha@ucsc.edu | Jack Lin, jlin143@ucsc.edu
 - **Components**: TODO
 
-### WaDAR_Tag_V1_2 (Not yet fabricated)
-- **Description**: Upgrade to board to incorporate an oscillator programmable at more flexibile frequencies.
+### WaDAR_Tag_V1_2 
+- **Description**: Upgrade to board to incorporate an oscillator programmable at more flexibile frequencies. 
 - **Authors**: Eric Vetha, evetha@ucsc.edu
 - **Components**: TODO
